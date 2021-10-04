@@ -14,7 +14,7 @@
   - [API updates](#api-updates)
   - [Support for inline CSI volumes](#support-for-inline-csi-volumes)
   - [Secret reference](#secret-reference)
-  - [Specifying allowed inline drivers with <code>PodSecurityPolicy</code>](#specifying-allowed-inline-drivers-with-)
+  - [Specifying allowed inline drivers with <code>PodSecurityPolicy</code>](#specifying-allowed-inline-drivers-with-podsecuritypolicy)
   - [Ephemeral inline volume operations](#ephemeral-inline-volume-operations)
 - [Test plans](#test-plans)
   - [All unit tests](#all-unit-tests)

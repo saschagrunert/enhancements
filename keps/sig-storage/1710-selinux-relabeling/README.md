@@ -13,10 +13,10 @@
   - [Non-Goals](#non-goals)
 - [Proposal](#proposal)
   - [Implementation Details/Notes/Constraints [optional]](#implementation-detailsnotesconstraints-optional)
-    - [<code>mount -o context</code>](#)
+    - [<code>mount -o context</code>](#mount--o-context)
   - [New Kubernetes behavior](#new-kubernetes-behavior)
   - [Shared volumes](#shared-volumes)
-  - [<code>CSIDriver.Spec.SELinuxMountSupported</code>](#-1)
+  - [<code>CSIDriver.Spec.SELinuxMountSupported</code>](#csidriverspecselinuxmountsupported)
   - [Examples](#examples)
   - [User Stories [optional]](#user-stories-optional)
     - [Story 1](#story-1)
@@ -43,10 +43,10 @@
 - [Implementation History](#implementation-history-1)
 - [Drawbacks [optional]](#drawbacks-optional)
 - [Alternatives [optional]](#alternatives-optional)
-  - [<code>FSGroupChangePolicy</code> approach](#-approach)
+  - [<code>FSGroupChangePolicy</code> approach](#fsgroupchangepolicy-approach)
   - [Change container runtime](#change-container-runtime)
   - [Move SELinux label management to kubelet](#move-selinux-label-management-to-kubelet)
-  - [Merge <code>FSGroupChangePolicy</code> and <code>SELinuxRelabelPolicy</code>](#merge--and-)
+  - [Merge <code>FSGroupChangePolicy</code> and <code>SELinuxRelabelPolicy</code>](#merge-fsgroupchangepolicy-and-selinuxrelabelpolicy)
 <!-- /toc -->
 
 ## Release Signoff Checklist

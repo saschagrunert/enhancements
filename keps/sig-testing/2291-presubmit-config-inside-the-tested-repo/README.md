@@ -12,7 +12,7 @@
 - [Proposal](#proposal)
   - [Risks and Mitigations](#risks-and-mitigations)
     - [Security](#security)
-    - [Components that need the <code>Presubmit</code> configuration but do not have a <code>git ref</code> to work on](#components-that-need-the--configuration-but-do-not-have-a--to-work-on)
+    - [Components that need the <code>Presubmit</code> configuration but do not have a <code>git ref</code> to work on](#components-that-need-the-presubmit-configuration-but-do-not-have-a-git-ref-to-work-on)
 - [Implementation History](#implementation-history)
 <!-- /toc -->
 
